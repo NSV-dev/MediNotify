@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>;net9.0-android;</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mobile.Integrations\Mobile.Integrations.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Huawei.Hms.Base" Version="6.12.0.301" />
+    <PackageReference Include="Huawei.Hms.Hwid" Version="6.12.0.300" />
+      <PackageReference Include="Huawei.Hms.Health" Version="6.11.0.303" />
+  </ItemGroup>
+
+</Project>
